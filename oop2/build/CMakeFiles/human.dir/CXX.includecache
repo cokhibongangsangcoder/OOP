@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/animal.h
+iostream
+-
+
+../include/dog.h
+iostream
+-
+animal.h
+../include/animal.h
+
+/home/hoc3hc/Desktop/oop/oop2/src/dog.cpp
+iostream
+-
+dog.h
+/home/hoc3hc/Desktop/oop/oop2/src/dog.h
+
+/home/hoc3hc/Desktop/oop/oop2/src/main.cpp
+dog.h
+/home/hoc3hc/Desktop/oop/oop2/src/dog.h
+

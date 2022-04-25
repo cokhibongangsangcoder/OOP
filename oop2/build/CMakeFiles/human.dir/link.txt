@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/human.dir/src/dog.cpp.o CMakeFiles/human.dir/src/main.cpp.o  -o human 
